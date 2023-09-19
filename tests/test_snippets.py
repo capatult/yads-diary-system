@@ -34,3 +34,4 @@ def test_count_correct_number_of_words():
 def test_only_whitespace_delineates_words():
     result = count_words("alpha-beta_gamma.delta epsilon\nzeta")
     assert result == 3
+
